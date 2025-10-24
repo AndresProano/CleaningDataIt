@@ -4,7 +4,7 @@ import re, csv, io
 from typing import Iterator, TextIO
 
 INPUT = Path("datos.csv")
-OUTPUT = Path("datos_completos_power_bi.csv")
+OUTPUT = Path("datos_completos_power_bi_pipeline3.csv")
 
 def fecha_a_datetime(fecha_texto):
     txt = str(fecha_texto).strip()
